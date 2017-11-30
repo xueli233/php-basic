@@ -1,6 +1,7 @@
 #!/bin/sh
 git add .
-nowtime=date --date='0 days ago' "+%Y-%m-%d %H:%M:%S"
+nowtime=`date`
+# echo $nowtime
 git commit -m nowtime
 git push -u origin master
 
