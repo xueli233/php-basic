@@ -30,4 +30,4 @@ define('CONSTANT','hello world',true);
 // if(defined('CONSTANT')){
 //   echo 'aaaa';
 // }
-var_dump(defined('constant'));
+// var_dump(defined('constant'));
