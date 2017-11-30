@@ -1,7 +1,7 @@
 #!/bin/sh
-git add .
+out = `git add .`
 nowtime=`date +%Y%m%d"-%H:%M:%S"`
-echo $?
+echo $out
 git commit -m $nowtime
 git push -u origin master
 
