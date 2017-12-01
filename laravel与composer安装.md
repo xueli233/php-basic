@@ -1,0 +1,4 @@
+- 1.下载•http://www.phpcomposer.com/
+- 2.安装时选择php.exe
+- 3.修改镜像地址 composer config -g repo.packagist composer https://packagist.phpcomposer.com
+- 4.生成项目 composer create-project laravel/laravel --prefer-dist
